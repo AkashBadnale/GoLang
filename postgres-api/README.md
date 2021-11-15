@@ -7,5 +7,11 @@
 
 
 ## ENDPOINTS
-* `/create` Method:POST
+* `http://localhost:8080/create` : Method : POST
+   body : </br>
+           {
+             "name" : "A",
+             "age" : 25
+           }
+           
 * `/read/{id}` Method:GET
